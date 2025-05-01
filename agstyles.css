@@ -611,22 +611,22 @@ tr:hover {
   background: #ffffff;
 }
 .slide-1 {
-  background: url('img/aa1.png');
+  background: url('vids/theway.mp4');
 }
 .slide-2 {
-  background: url('img/aa2.png');
+  background: url('vids/prob.mp4');
 }
 .slide-3 {
-  background: url('img/aa3.png');
+  background: url('vids/dw.mp4');
 }
 .slide-4 {
-  background: url('img/aa5.png');
+  background: url('vids/sw.mp4');
 }
 .slide-5 {
-  background: url('img/aa4.png');
+  background: url('vids/tun.mp4');
 }
 .slide-6 {
-  background: url('img/aa6.png');
+  background: url('vids/pos.mp4');
 }
 .slide2 {
   width: 100%;

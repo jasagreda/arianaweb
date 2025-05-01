@@ -1,0 +1,805 @@
+body {
+    background-color: #250000;
+
+}
+
+header {
+  background-image: url(https://www.arianagrande.com/files/2024/01/hero-bg-compressed.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-top:5%;
+}
+
+@media (max-width: 768px) {
+  header {
+      text-align: center;
+  }
+
+  h1 {
+      font-size: 1.5em;
+ 
+  }
+
+h2 { 
+  font-size: 200px;
+}
+
+  .icon-list {
+      font-size: 0.8em;
+  }
+
+  .vidandpic {
+      width: 80%;
+      margin: 0 auto;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .stream {
+      text-align: center;
+  }
+}
+
+.bgimage {
+  background-image: url(https://www.arianagrande.com/files/2024/01/hero-bg-compressed.jpg);
+}
+
+.w3-sidebar {
+  width: 120px;
+  background: #222;
+}
+@media screen and (max-width: 600px) {
+  .w3-bar {
+    display: block;
+  }
+  .w3-right {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Show the right side of the navbar */
+  .w3-right {
+    display: block !important;
+  }
+}
+
+#main {
+  margin-left: px;
+}
+
+.background-container {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  height: 100vh;
+  width: 100%; /* Set width to 100% */
+}
+
+@media only screen and (max-width: 600px) {
+  #main {
+      margin-left: 0;
+  }
+}
+
+.jumbo {
+  size: 50px;
+}
+
+.half {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.half:hover .image {
+  opacity: 0.3;
+}
+
+.half:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  position: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+#logo {
+  padding-top: 2%;
+  font-family: myFirstFont;
+  color: white;
+  font-size: 80px;
+}
+
+#yesandvid,
+#yesandpic {
+  max-width: 50%;
+  height: auto;
+}
+
+#yesandvid {
+  border-radius: 17%;
+  position: relative;
+  width: 35%;
+  left: 5%;
+  height: auto;
+  width: 45%;
+  top: 1%;
+}
+
+#yesandpic {
+  max-width: 40%;
+  height: auto;
+  width: 50vw;
+  margin-left: 10%;
+  position: relative;
+  bottom: 25px;
+}
+
+.vidandpic {
+  display: flex;
+  position: relative;
+  left: 15px;
+  bottom: 28px;
+}
+
+.vidandpic img,
+.vidandpic video {
+  max-width: 100%;
+  height: auto;
+}
+
+.stream {
+  display: flex;
+  color: white;
+  position: relative;
+  left: 59%;
+  top: -110px;
+  text-align: center;
+
+}
+
+@media (max-width: 768px) {
+  .vidandpic {
+    flex-direction: column;
+    align-items: center;
+    top:10px;
+  }
+
+  #yesandvid{
+    left:-9px;
+    height:100%;
+    width:70%;
+  }
+
+  #yesandvid,
+  #yesandpic {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .stream {
+    text-align: center;
+    left: 120px;
+    padding-top:50px;
+    width: 100%;
+  }
+
+  button {
+    margin: 0 auto;
+  }
+}
+
+button {
+  background-color: #dee0d4;
+  color: rgb(87, 4, 4);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 1%;
+  position: relative;
+  top: 50px;
+  left: -270px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #c1c1b6;
+  color: rgb(160, 160, 158);
+}
+
+.yesandpng {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0%;
+  border: 0%;
+}
+
+.yesandpng img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -70px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Karrilee.otf);
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(fonts/NotCourierSans.otf);
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url(fonts/Satisfaction.otf);
+}
+
+@font-face {
+  font-family: myFourthFont;
+  src: url(fonts/Ed.otf);
+}
+
+@font-face {
+  font-family: myFifthFont;
+  src: url(fonts/sims.ttf);
+}
+
+@font-face {
+  font-family: mySixthFont;
+  src: url(fonts/bodoni.ttf);
+}
+
+@font-face {
+  font-family: mySeventhFont;
+  src: url(fonts/Bodoni72.otf);
+}
+
+@font-face {
+  font-family: myEighthFont;
+  src: url(fonts/marola.ttf);
+}
+
+#yt{
+  font-family: myFourthFont;
+}
+
+#me{
+  font-family: myFifthFont;
+}
+
+#dw{
+  font-family: mySixthFont;
+}
+
+#sw{
+  font-family: mySeventhFont;
+}
+
+#tun{
+  font-family: mySeventhFont;
+}
+
+#pos {
+  font-family: myEighthFont;
+
+}
+
+
+.icon-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: 80%;
+  top: -45px;
+  display: flex;
+  
+}
+
+.icon-list li {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.icon-list li img {
+  width: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 851px) {
+  .icon-list {
+      display: none;
+  }
+}
+
+#streamtxt {
+  font-family: mySecondFont;
+}
+
+.about {
+  font-family: myFirstFont;
+  font-size: 60px;
+}
+
+
+
+.whitetext {
+  color: white;
+}
+
+.font1 {
+  font-family: myFirstFont;
+}
+
+.font2 {
+  font-family: mySecondFont;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 80%;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(80, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.slide:hover .tooltip {
+  opacity: 1;
+}
+
+.fade {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.font3 {
+  font-family: myThirdFont;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+  background-color: #000000;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #540000;
+  font-family: mySeventhFont;
+}
+
+tr{
+  font-family: mySecondFont;
+}
+
+tr:hover {
+  background-color: #520000;
+}
+
+.albums{
+  font-size:60px;
+}
+
+#table{
+  margin-top: 20px;
+}
+
+.icon-list2{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left:600px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.icon-list2 li {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.icon-list2 li img {
+  width: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {}
+  .icon-list2 {
+    text-align: center;
+    left: 170px;
+    width: 100%;
+  }
+
+  .padding-large{
+    padding:12px 24px!important
+  }
+
+  .content,.auto {
+    margin-left:auto;margin-right:auto
+  }
+  .content{
+    max-width:980px
+  }
+
+  .justify{
+    text-align:justify!important;
+    
+  }
+
+  .padding-64{
+    padding-top:64px!important;
+    padding-bottom:64px!important
+  }
+
+  .opacity,.hover-opacity:hover{
+    opacity:0.60
+  }
+  
+  .opacity-off,.hover-opacity-off:hover{
+    opacity:1
+  }
+.opacity-max{
+  opacity:0.25
+}
+.opacity-min{
+  opacity:0.75
+}
+
+.text-light-grey,.hover-text-light-grey:hover,.text-light-gray,.hover-text-light-gray:hover{
+  color:#f1f1f1!important
+}
+
+.row-padding:after,.row-padding:before,
+.cell-row:before,.cell-row:after,.clear:after,.clear:before,.bar:before,.bar:after{
+  content:"";display:table;clear:both
+}
+
+.row-padding,.row-padding>.half,.row-padding>.third,.row-padding>.twothird,.row-padding>.threequarter,.row-padding>.quarter,.row-padding>.col{
+  padding:0 8px
+}
+
+.col,.half,.third,.twothird,.threequarter,.quarter{
+  float:left;width:100%
+}
+
+.col.m6,.half{
+  width:49.99999%
+}
+
+.singles-section {
+  display: flex;
+  background-image: url('https://31.media.tumblr.com/b3da4da6b3f9940b3602a5941ab1dab9/tumblr_mq1p3w1tF01rfeg4uo1_500.gif'); /* URL to your background image */
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px; /* Adjust padding as needed */
+  margin-top: 10px;
+  border-radius: 10px; /* Add rounded corners */
+
+}
+
+.video3 {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.video3 iframe {
+  width: 100%;
+}
+
+.text3 {
+  flex: 1;
+}
+
+.text3 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text3 p {
+  font-size: 16px;
+}
+
+#singles2{
+  background-image: url('https://zumic.com/wp-content/uploads/2014/05/Ariana-Grande-Problem.jpg'); /* URL to your background image */
+
+}
+
+.album-description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #888;
+  text-align: justify;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.container {
+  position: relative;
+  background: #ffffff;
+}
+.slide-1 {
+  background: url('img/aa1.png');
+}
+.slide-2 {
+  background: url('img/aa2.png');
+}
+.slide-3 {
+  background: url('img/aa3.png');
+}
+.slide-4 {
+  background: url('img/aa5.png');
+}
+.slide-5 {
+  background: url('img/aa4.png');
+}
+.slide-6 {
+  background: url('img/aa6.png');
+}
+.slide2 {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow-x: hidden;
+}
+.caption {
+  background: rgba(0, 0, 0, 0.03);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 40px 0px;
+}
+.caption h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  padding: 18px;
+}
+.caption p {
+  max-width: 900px;
+  width: 90%;
+  margin: 0px auto;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 100;
+  background: rgba(0, 0, 0, .1);
+  border-radius: 50%;
+  transform: background 500ms;
+}
+.arrow img {
+  width: 50px;
+}
+.arrow:hover {
+  background: rgba(0, 0, 0, .4);
+}
+.l {
+  left: 0;
+}
+.r {
+  right: 0;
+}
+
+.colored-div {
+  background-color: rgba(0, 0, 0, 0.5); /* Black color with 50% opacity */
+  padding-top: 10px;;
+}
+
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.item3 {
+  flex: 0 0 48%; /* Set width of each item */
+  margin-bottom: 20px;
+}
+
+
+.item3 img {
+  width: 560px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .item {
+      flex: 0 0 100%; /* Full width on smaller screens */
+  }
+}  
+
+.fadein2 {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.margtop{
+margin-top: 30px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.section2 {
+  height: 100vh; /* Set each section to full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4vw; /* Responsive font size */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#section1 {
+  background-image: url('https://fast.clickbooq.com/69bc1b-380/ArianaGrandeDB%20%202-Edit.jpg');
+  margin-top: 35px;
+}
+
+#section2 {
+  background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2015/03/ariana_grande_concert_a_l.jpg');
+}
+
+#section3 {
+  background-image: url('https://www.lntvglobal.com/media/256011/亞莉安娜-照片請標註由live-nation-理想國提供-9.jpg');
+}
+
+#section4 {
+  background-image: url('https://www.nme.com/wp-content/uploads/2019/03/GettyImages-1136735073.jpg');
+}
+
+/* Add this to your CSS file */
+
+.container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item4 {
+  flex: 1;
+}
+
+.item4 p {
+  font-size: 16px;
+  text-align: justify;
+  color: white;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .container4 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .item4 p {
+    font-size: 12px;
+    text-align: justify;
+    margin-right: 0px;
+  }
+}
+
+.iframe-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+iframe {
+  max-width: 100%; /* Ensure iframe doesn't exceed container width */
+  max-height: 100%; /* Ensure iframe doesn't exceed container height */
+}
